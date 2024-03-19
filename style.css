@@ -23,3 +23,12 @@ body{
 .bg-danger, .bg-success{
     color: white;
 }
+.endcart-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.no-click-event{
+    pointer-events: none;
+}
