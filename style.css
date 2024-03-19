@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+}
+
+.container{
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-card{
+    width: 30rem;
+}
+.question-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.bg-danger, .bg-success{
+    color: white;
+}
